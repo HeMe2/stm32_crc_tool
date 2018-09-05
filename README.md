@@ -18,3 +18,7 @@ Pass the data as command line argument to this program to calculate the CRC chec
     -i VAL, --init VAL    initial crc value (default is 0xFFFFFFFF)
 
 The default values equal the ones embedded in the STM hardware modules.
+
+# Licence
+
+This software is provided under the [MIT licence](LICENCE). 
