@@ -4,6 +4,12 @@ F469, etc.). On these controllers the CRC-Module cannot be configured.
 
 Pass the data as command line argument to this program to calculate the CRC checksum with 32 bits with the same 
 algorithm as on the STM32Fx modules.
+
+## Outline:
+- ![Usage](README.md#Usage)
+- ![Library usage](README.md#Library-usage)
+- ![Licence](README.md#Licence)
+- ![Future work](README.md#Future-work)
  
 ## Usage
     usage: stm32_crc_tool [-h] [-v] [--verbose] [-d] [-b BITS] [-p POLY] [-i VAL]
@@ -44,13 +50,13 @@ in the STM controller family. (The parameter default values equal the ones embed
     
 _rtype_ `int`
 
-_param_ input_data: one integer value with the specified bit length
+_param_ **input_data**: one integer value with the specified bit length
 
-_param_ poly: crc polynomial to use in the algorithm
+_param_ **poly**: crc polynomial to use in the algorithm
 
-_param_ initial_crc: crc value to start with (e.g. value from the previous iteration)
+_param_ **initial_crc**: crc value to start with (e.g. value from the previous iteration)
 
-_param_ sizeof_input: bit length of the desired crc value
+_param_ **sizeof_input**: bit length of the desired crc value
 
 _return_ crc value of the given integer
 
